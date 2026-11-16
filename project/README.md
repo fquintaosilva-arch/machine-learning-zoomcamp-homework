@@ -18,7 +18,7 @@ Models were evaluated using **Hit Rate@10** for unsupervised content similarity 
 | **Decision Tree / Random Forest** | `max_depth = 7`, `n_estimators = 100`, `min_samples_leaf = 10` | Validation RMSE | `0.9606` |
 | **Ridge Regression (Selected Winner)** | `alpha = 100.0` | Validation RMSE | **`0.9605`** |
 
-* **Final Test Set Performance (`Ridge`, `alpha=100.0`):**`0.9660`**  Evaluated once on the unseen 20% test set (`df_test`).
+* **Final Test Set Performance (`Ridge`, `alpha=100.0`):****`0.9660`**  Evaluated once on the unseen 20% test set (`df_test`).
 
 ## Project Structure
 * `notebook.ipynb` — Full EDA, visualizations, tag cleaning, model comparisons, and hyperparameter tuning.
